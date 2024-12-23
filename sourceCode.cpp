@@ -1,7 +1,7 @@
 Share
 
 
-You said:
+
 #include <LiquidCrystal.h> #include <SimpleDHT.h> #include <stdio.h>
 #include <SoftwareSerial.h> int pinDHT11 = 5; SimpleDHT11 dht11; SoftwareSerial mySerial(2,3);
 const int rs = 8, en = 9, d4 = 10, d5 = 11, d6 = 12, d7 = 13; LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
